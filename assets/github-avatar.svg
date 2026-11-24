@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Pergoala GitHub organization avatar">
+  <title>github.com/pergoala Avatar</title>
+  <defs>
+    <linearGradient id="gh-av-bg" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#141B26"/>
+      <stop offset="100%" stop-color="#0B0F15"/>
+    </linearGradient>
+    <radialGradient id="gh-av-glow" cx="74%" cy="24%" r="54%">
+      <stop offset="0%" stop-color="#34D399" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#34D399" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gh-av-vine" x1="120" y1="400" x2="400" y2="110" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0E8A5E"/>
+      <stop offset="60%" stop-color="#24B47E"/>
+      <stop offset="100%" stop-color="#34D399"/>
+    </linearGradient>
+  </defs>
+  <!-- Full square canvas safe for both GitHub rounded-square org avatar and circular crop -->
+  <rect width="512" height="512" fill="url(#gh-av-bg)"/>
+  <rect width="512" height="512" fill="url(#gh-av-glow)"/>
+
+  <!-- Circle-safe inner framing ring -->
+  <circle cx="256" cy="256" r="228" fill="none" stroke="#223044" stroke-width="2" stroke-dasharray="6 10" opacity="0.65"/>
+
+  <g transform="translate(86, 86) scale(5.3125)">
+    <g stroke="#64748B" stroke-width="2.4" stroke-linecap="round">
+      <line x1="13" y1="11" x2="51" y2="11" stroke="#94A3B8" stroke-width="2.2"/>
+      <line x1="18" y1="11" x2="18" y2="18"/>
+      <line x1="27.3" y1="11" x2="27.3" y2="18"/>
+      <line x1="36.7" y1="11" x2="36.7" y2="18"/>
+      <line x1="46" y1="11" x2="46" y2="18"/>
+    </g>
+    <path d="M7 18 H57" stroke="#F1F5F9" stroke-width="4.1" stroke-linecap="round"/>
+    <path d="M18 18 V54" stroke="#E2E8F0" stroke-width="3.9" stroke-linecap="round"/>
+    <path d="M46 18 V54" stroke="#E2E8F0" stroke-width="3.9" stroke-linecap="round"/>
+    <path d="M18 35 H46" stroke="#334155" stroke-width="1.9" stroke-linecap="round" stroke-dasharray="3 4"/>
+    <path d="M14 53 C18 46, 20 39, 27 35 C34 31, 41 28, 46 21 C48 18, 50 15, 52 11" fill="none" stroke="url(#gh-av-vine)" stroke-width="4.3" stroke-linecap="round"/>
+    <path d="M23 38 C20 33, 22 27, 28 26 C28 31, 26 35, 23 38 Z" fill="#34D399" opacity="0.92"/>
+    <circle cx="18" cy="46.5" r="2.2" fill="#0D1117" stroke="#34D399" stroke-width="1.8"/>
+    <circle cx="46" cy="21" r="2.2" fill="#0D1117" stroke="#34D399" stroke-width="1.8"/>
+    <circle cx="53" cy="10" r="5.5" fill="#F5B84B" opacity="0.24"/>
+    <circle cx="53" cy="10" r="3.4" fill="#F5B84B"/>
+  </g>
+</svg>

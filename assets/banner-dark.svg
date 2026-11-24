@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320" role="img" aria-label="Pergoala GitHub header banner dark">
+  <title>Pergoala Development Methodology — GitHub Header (Dark)</title>
+  <defs>
+    <linearGradient id="gh-bg-d" x1="0" y1="0" x2="1280" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="55%" stop-color="#111822"/>
+      <stop offset="100%" stop-color="#0D1419"/>
+    </linearGradient>
+    <radialGradient id="gh-glow-d1" cx="82%" cy="32%" r="42%">
+      <stop offset="0%" stop-color="#34D399" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#34D399" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="gh-glow-d2" cx="88%" cy="22%" r="22%">
+      <stop offset="0%" stop-color="#F5B84B" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#F5B84B" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gh-vine-d" x1="12" y1="54" x2="52" y2="10" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0E8A5E"/>
+      <stop offset="60%" stop-color="#24B47E"/>
+      <stop offset="100%" stop-color="#34D399"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="1279" height="319" rx="16" fill="url(#gh-bg-d)" stroke="#243042"/>
+  <rect x="0.5" y="0.5" width="1279" height="319" rx="16" fill="url(#gh-glow-d1)"/>
+  <rect x="0.5" y="0.5" width="1279" height="319" rx="16" fill="url(#gh-glow-d2)"/>
+
+  <!-- Architectural pergola lattice background pattern (right half) -->
+  <g stroke="#1E2B3B" stroke-width="1.2" opacity="0.85">
+    <line x1="740" y1="56" x2="1220" y2="56" stroke="#2D3F54" stroke-width="2"/>
+    <line x1="760" y1="36" x2="1200" y2="36" stroke="#243447" stroke-width="1.4"/>
+    <line x1="800" y1="36" x2="800" y2="284"/>
+    <line x1="910" y1="36" x2="910" y2="284"/>
+    <line x1="1020" y1="36" x2="1020" y2="284"/>
+    <line x1="1130" y1="36" x2="1130" y2="284"/>
+    <line x1="780" y1="140" x2="1180" y2="140" stroke-dasharray="4 6"/>
+    <line x1="780" y1="224" x2="1180" y2="224" stroke-dasharray="4 6"/>
+  </g>
+
+  <!-- Living software vine weaving through the 4-question pergola lattice -->
+  <path d="M775 268 C820 242, 855 210, 910 185 C965 160, 985 112, 1045 96 C1088 84, 1118 72, 1152 46"
+        fill="none" stroke="#34D399" stroke-width="3.5" stroke-linecap="round" opacity="0.85"/>
+  <path d="M845 264 C895 232, 955 220, 1020 176 C1065 145, 1105 112, 1152 46"
+        fill="none" stroke="#5B9BFF" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 5" opacity="0.65"/>
+
+  <!-- 4 Question Nodes anchored to the 4 pergola pillars -->
+  <g font-family="'JetBrains Mono', 'Cascadia Code', monospace" font-size="11">
+    <circle cx="800" cy="252" r="5" fill="#0D1117" stroke="#5B9BFF" stroke-width="2.2"/>
+    <text x="800" y="299" text-anchor="middle" fill="#7FB2FF">01 ASKED</text>
+
+    <circle cx="910" cy="185" r="5" fill="#0D1117" stroke="#34D399" stroke-width="2.2"/>
+    <text x="910" y="299" text-anchor="middle" fill="#6EE7B7">02 AGREED</text>
+
+    <circle cx="1020" cy="108" r="5" fill="#0D1117" stroke="#F5B84B" stroke-width="2.2"/>
+    <text x="1020" y="299" text-anchor="middle" fill="#FCD34D">03 TRUE NOW</text>
+
+    <circle cx="1130" cy="64" r="5" fill="#0D1117" stroke="#A78BFA" stroke-width="2.2"/>
+    <text x="1130" y="299" text-anchor="middle" fill="#C4B5FD">04 WHO ACTS</text>
+  </g>
+
+  <!-- Summit goal beacon -->
+  <circle cx="1154" cy="44" r="14" fill="#F5B84B" opacity="0.18"/>
+  <circle cx="1154" cy="44" r="6" fill="#F5B84B"/>
+
+  <!-- Left brand lockup & core thesis -->
+  <g transform="translate(64, 62) scale(1.65)">
+    <g stroke="#64748B" stroke-width="2.4" stroke-linecap="round">
+      <line x1="13" y1="11" x2="51" y2="11" stroke="#94A3B8" stroke-width="2.2"/>
+      <line x1="18" y1="11" x2="18" y2="18"/>
+      <line x1="27.3" y1="11" x2="27.3" y2="18"/>
+      <line x1="36.7" y1="11" x2="36.7" y2="18"/>
+      <line x1="46" y1="11" x2="46" y2="18"/>
+    </g>
+    <path d="M7 18 H57" stroke="#F1F5F9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M18 18 V54" stroke="#E2E8F0" stroke-width="3.8" stroke-linecap="round"/>
+    <path d="M46 18 V54" stroke="#E2E8F0" stroke-width="3.8" stroke-linecap="round"/>
+    <path d="M18 35 H46" stroke="#334155" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 4"/>
+    <path d="M14 53 C18 46, 20 39, 27 35 C34 31, 41 28, 46 21 C48 18, 50 15, 52 11" fill="none" stroke="url(#gh-vine-d)" stroke-width="4.2" stroke-linecap="round"/>
+    <path d="M23 38 C20 33, 22 27, 28 26 C28 31, 26 35, 23 38 Z" fill="#34D399" opacity="0.9"/>
+    <circle cx="18" cy="46.5" r="2.2" fill="#0D1117" stroke="#34D399" stroke-width="1.8"/>
+    <circle cx="46" cy="21" r="2.2" fill="#0D1117" stroke="#34D399" stroke-width="1.8"/>
+    <circle cx="53" cy="10" r="5" fill="#F5B84B" opacity="0.24"/>
+    <circle cx="53" cy="10" r="3.2" fill="#F5B84B"/>
+  </g>
+
+  <g font-family="'Space Grotesk', 'Plus Jakarta Sans', 'Segoe UI', system-ui, sans-serif">
+    <text x="196" y="122" font-size="52" font-weight="700" letter-spacing="-1.2" fill="#F8FAFC">Per<tspan fill="#34D399">goala</tspan></text>
+    <text x="198" y="152" font-size="14" font-weight="600" letter-spacing="3.2" fill="#94A3B8">DEVELOPMENT METHODOLOGY</text>
+    <text x="68" y="216" font-size="20" font-weight="400" fill="#CBD5E1">Light structure in the right place — so software and AI</text>
+    <text x="68" y="244" font-size="20" font-weight="400" fill="#CBD5E1">grow together, <tspan fill="#F5B84B" font-weight="600">goal by goal</tspan>.</text>
+  </g>
+
+  <!-- Bottom micro-pill -->
+  <rect x="68" y="266" width="144" height="26" rx="13" fill="#162231" stroke="#283B52"/>
+  <text x="140" y="283" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="12" fill="#34D399">pergoala.dev</text>
+
+  <rect x="224" y="266" width="176" height="26" rx="13" fill="#162231" stroke="#283B52"/>
+  <text x="312" y="283" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="12" fill="#94A3B8">open methodology</text>
+</svg>
